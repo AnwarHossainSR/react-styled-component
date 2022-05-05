@@ -1,9 +1,12 @@
-import React from 'react'
+// import './assets/css/dark.css';
+import GlobalStyle from './components/styles/Global.styles';
+import Tutorial from './components/Tutorial';
 
-const App = () => {
-  return (
-    <div>App</div>
-  )
+export default function App() {
+    return (
+        <>
+            <GlobalStyle />
+            <Tutorial />
+        </>
+    );
 }
-
-export default App
